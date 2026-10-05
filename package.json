@@ -1,0 +1,52 @@
+{
+  "name": "mockinterviewai",
+  "version": "0.2.0",
+  "description": "MockInterviewAI — AI-Powered Mock Interview & Performance Analysis System",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "test:foundation": "node tests/foundation.test.js",
+    "test:auth": "node tests/authentication.test.js",
+    "test:session": "node tests/interviewSession.test.js",
+    "test:orchestration": "node tests/aiInterviewOrchestration.test.js",
+    "test:evaluation": "node tests/answerEvaluation.test.js",
+    "test:voice": "node tests/voiceInterview.test.js",
+    "test:reporting": "node tests/interviewReporting.test.js",
+    "test:settings": "node tests/voiceSettings.test.js",
+    "test:intelligence": "node tests/conversationIntelligence.test.js",
+    "test:reasoning": "node tests/conversationalReasoning.test.js",
+    "test:continuous-voice": "node tests/continuousVoice.test.js",
+    "test:answer-reasoning": "node tests/currentAnswerReasoning.test.js",
+    "test:conversation-flow": "node tests/conversationFlow.test.js",
+    "test:transcript-integrity": "node tests/transcriptIntegrity.test.js",
+    "test:evaluation-integrity": "node tests/evaluationIntegrity.test.js",
+    "test:phase0": "node tests/foundation.test.js",
+    "test:phase1": "node tests/authentication.test.js",
+    "test:phase2": "node tests/interviewSession.test.js",
+    "test:phase3": "node tests/aiInterviewOrchestration.test.js",
+    "test:phase4": "node tests/answerEvaluation.test.js",
+    "test:phase5": "node tests/voiceInterview.test.js",
+    "test:phase6": "node tests/interviewReporting.test.js",
+    "test:phase7": "node tests/voiceSettings.test.js",
+    "test:phase8": "node tests/conversationIntelligence.test.js",
+    "test:phase9": "node tests/conversationalReasoning.test.js",
+    "test:all": "node tests/foundation.test.js && node tests/authentication.test.js && node tests/interviewSession.test.js && node tests/aiInterviewOrchestration.test.js && node tests/answerEvaluation.test.js && node tests/voiceInterview.test.js && node tests/interviewReporting.test.js && node tests/voiceSettings.test.js && node tests/conversationIntelligence.test.js && node tests/conversationalReasoning.test.js && node tests/continuousVoice.test.js && node tests/currentAnswerReasoning.test.js && node tests/conversationFlow.test.js && node tests/transcriptIntegrity.test.js && node tests/evaluationIntegrity.test.js",
+    "test": "node tests/foundation.test.js && node tests/authentication.test.js && node tests/interviewSession.test.js && node tests/aiInterviewOrchestration.test.js && node tests/answerEvaluation.test.js && node tests/voiceInterview.test.js && node tests/interviewReporting.test.js && node tests/voiceSettings.test.js && node tests/conversationIntelligence.test.js && node tests/conversationalReasoning.test.js && node tests/continuousVoice.test.js && node tests/currentAnswerReasoning.test.js && node tests/conversationFlow.test.js && node tests/transcriptIntegrity.test.js && node tests/evaluationIntegrity.test.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
+    "mysql2": "^3.12.0"
+  },
+  "keywords": [
+    "mock-interview",
+    "ai",
+    "performance-analysis"
+  ],
+  "author": "",
+  "license": "ISC"
+}
